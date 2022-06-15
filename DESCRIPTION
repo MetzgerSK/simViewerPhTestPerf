@@ -1,0 +1,29 @@
+Type: Compendium
+Package: simViewerPhTestPerf
+Title: Simulation results viewer
+Version: 0.0.1
+Authors@R: 
+    person(given = "Shawna",
+			 middle = "K.",
+			 family = "Metzger",
+			 role = c("aut", "cre"),
+			 email = "shawna@shawnakmetzger.com",
+			 comment = c(Affiliation = "PolSci, UB"))
+Description: Shiny app to view simulation results from
+    Metzger's "Stat That"
+License: N/A
+Depends: 
+    magrittr,
+    shiny,
+    shinyWidgets,
+	shinyjs,
+	rlang,
+	magick,
+	dplyr,
+	plyr,
+	purrr,
+	stringr,
+	ggplot2,
+	ggtext
+Encoding: UTF-8
+LazyData: true
